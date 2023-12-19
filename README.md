@@ -1,7 +1,6 @@
-# Premier League Stats/Predictor
-This project aims to look at the Premier League, the stats of each team, how they have performed this season, and to predict the rest of the season with said stats.
-The Excel file features data taken from FBRef, the current table, a game predictor, and a table prediction. In addition, stats regarding attacking, goalkeeping, passing, and defending for each team are included, as well as a radar chart comparing said metrics. 
-
+# Soccer Stats Aggregator/Match Predictor
+This project aims to look at the Premier League and the other "Big 5" Leagues, the stats of each team within them, how they have performed this season, and to predict the rest of the season with said stats.
+The Excel file features data taken from FBRef, the current table, a game predictor, and a table prediction. In addition, stats regarding attacking, goalkeeping, passing, and defending for each team are included.
 # Background
 Some inspiration did come from a few areas to complete this project. The visualizations of attacking, goalkeeping, passing, and defending statistics came from Football Manager’s Data Hub feature, which creates a scatter graph of each team in a league and divides it into 4 quadrants to make it easier to see how teams are performing. A picture comparing the two is below.
 
@@ -42,7 +41,7 @@ $$\[
 
 Afterwards, the Poisson Distribution looks at all possible outcomes for the game, with each team scoring from 0-10 goals in any given game using these scores/ratings. The percentage chance to win is self-explanatory. 
 
-# Stats Overview
+# Stat Visualization Examples
 NOTE: All screenshots and data from this point on were from 12/17/23, or Matchday 17 of the season.
 
 For the goalkeeping statistics:
@@ -71,12 +70,11 @@ As of Matchday 17, the table looks like so:
 
 
 # Prediction Results
-Although the sample size is still small, the results of the predictions have been pretty good. Taking all the games from Matchday 17, the predictions counted the winner correctly about 66.6% of the time and was within 1 goal 88.89% of the time. 
-More samples are needed but looks promising for now.
+Betting history and prediction results will be available when more stats are available.
 
 # Other Notes
 There might be some lag when updating the connections and queries, as well as changing something within the file, as the simulations are re-running. 
-The chart was set up in a way that it should translate rather seamlessly with the other top 5 leagues (i.e. Bundesliga, LaLiga, Ligue 1, Serie A). It would be worth looking into this to see how well the predictions would work in those leagues.
+It would be interesting to see how this performs in different sports (i.e. MLB and NBA).
 Some other notes to consider:
 1.	The Raw Data and Calculations sheets are hidden, just Unhide them to see them.
 2.	The sheet was created in a computer with a 2560x1440 monitor, so it might seem a bit large for someone on the standard 1920x1080 monitor. 
@@ -85,4 +83,7 @@ Some other notes to consider:
 5.	The predictions cannot account for a recent run of form.
 6.	Point deductions have to be done manually, as in the case of Everton in the 2023-2024 season.
 7.	The calculations sheet looks a bit messy. It is left as is for now, however I may come back to clean it up a bit later.
-8.	The radar chart seems to break occasionally, not sure why, but will look to fix soon.
+8.	In Ligue 1, Le Havre seems to break the game predictor, not sure why, will fix later.
+9.	The macro set for leagues other than the Premier League work, however they do produce some errors. The script works fine, ignore them.
+10.	In the table predictions, the "Most Likely Outcome" section sometimes has a team show for two places (e.g. 18th and 19th). This will be fixed in the future.
+
