@@ -1,5 +1,5 @@
 # Soccer Stats Aggregator/Match Predictor
-This project aims to look at the Premier League and the other "Big 5" Leagues, the stats of each team within them, how they have performed this season, and to predict the rest of the season with said stats.
+This project aims to look at the Premier League and the other "Big 5" Leagues, along with the Championship, the stats of each team within them, how they have performed this season, and to predict the rest of the season with said stats.
 The Excel file features data taken from FBRef, the current table, a game predictor, and a table prediction. In addition, stats regarding attacking, goalkeeping, passing, and defending for each team are included.
 # Background
 Some inspiration did come from a few areas to complete this project. The visualizations of attacking, goalkeeping, passing, and defending statistics came from Football Manager’s Data Hub feature, which creates a scatter graph of each team in a league and divides it into 4 quadrants to make it easier to see how teams are performing. A picture comparing the two is below.
@@ -83,7 +83,6 @@ Some other notes to consider:
 5.	The predictions cannot account for a recent run of form.
 6.	Point deductions have to be done manually, as in the case of Everton in the 2023-2024 season.
 7.	The calculations sheet looks a bit messy. It is left as is for now, however I may come back to clean it up a bit later.
-8.	In Ligue 1, Le Havre seems to break the game predictor, not sure why, will fix later.
-9.	The macro set for leagues other than the Premier League work, however they do produce some errors. The script works fine, ignore them.
-10.	In the table predictions, the "Most Likely Outcome" section sometimes has a team show for two places (e.g. 18th and 19th). This will be fixed in the future.
+8.	In the table predictions, the "Most Likely Outcome" section sometimes has a team show for two places (e.g. 18th and 19th). This will be fixed in the future.
+9.	Premier League seems to be the most reliable, with the predictor underestimating goal totals in Serie A and the Bundesliga, will have to look into this.
 
