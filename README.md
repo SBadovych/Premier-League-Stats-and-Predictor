@@ -72,17 +72,22 @@ As of Matchday 17, the table looks like so:
 # Prediction Results
 Betting history and prediction results will be available when more stats are available.
 
+# Future Additions
+Some things to consider to add for later:
+1.	The calculations sheet looks a bit messy. It is left as is for now, however I may come back to clean it up a bit later.
+2.	In the table predictions, the "Most Likely Outcome" section sometimes has a team show for two places (e.g. 18th and 19th). This will be fixed in the future.
+3.	Premier League seems to be the most reliable, along with the Bundesliga. The predictor is underestimating goal totals in Ligue 1 and LaLiga, will have to look into this, possibly adjust the scores with something akin to a corrective factor.
+
+
 # Other Notes
 There might be some lag when updating the connections and queries, as well as changing something within the file, as the simulations are re-running. 
 It would be interesting to see how this performs in different sports (i.e. MLB and NBA).
 Some other notes to consider:
 1.	The Raw Data and Calculations sheets are hidden, just Unhide them to see them.
-2.	The sheet was created in a computer with a 2560x1440 monitor, so it might seem a bit large for someone on the standard 1920x1080 monitor. 
-3.	The predictions cannot account for January transfers. Some transfers can shake up the table and results for the rest of the season (think of Suarez to Liverpool in 2011). 
-4.	The predictions cannot account for injuries as well (e.g. Tottenham’s injury problems in the 2023-2024 season). 
-5.	The predictions cannot account for a recent run of form.
-6.	Point deductions have to be done manually, as in the case of Everton in the 2023-2024 season.
-7.	The calculations sheet looks a bit messy. It is left as is for now, however I may come back to clean it up a bit later.
-8.	In the table predictions, the "Most Likely Outcome" section sometimes has a team show for two places (e.g. 18th and 19th). This will be fixed in the future.
-9.	Premier League seems to be the most reliable, with the predictor underestimating goal totals in Serie A and the Bundesliga, will have to look into this.
-
+2.	The queries need to be updated when opening the file to update all the values.
+3.	The sheet was created in a computer with a 2560x1440 monitor, so it might seem a bit large for someone on the standard 1920x1080 monitor. 
+4.	The predictions cannot account for January transfers. Some transfers can shake up the table and results for the rest of the season (think of Suarez to Liverpool in 2011). 
+5.	The predictions cannot account for injuries as well (e.g. Tottenham’s injury problems in the 2023-2024 season).
+6.	It also cannot account for managerial changes mid season (e.g. Nuno at Nottingham Forest in 23-24).
+7.	The predictions cannot account for a recent run of form.
+8.	Point deductions have to be done manually, as in the case of Everton in the 2023-2024 season.
